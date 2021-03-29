@@ -82,6 +82,8 @@ endif
   MULTIPLE_HW_VARIANTS_ENABLED := true
 endif
 
+LOCAL_CFLAGS += -Wno-format
+
 LOCAL_SRC_FILES := \
 	audio_hw.c \
 	voice.c \
